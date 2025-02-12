@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+  --color-gradient-dark: #08203e;
+  --color-gradient-light: #1e1a4d;
+}
