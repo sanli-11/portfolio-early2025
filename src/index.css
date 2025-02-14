@@ -1,6 +1,207 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "MADE Awelier";
+  src: url("assets/fonts/made-awelier/MADEAwelier-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADE Awelier";
+  src: url("assets/fonts/made-awelier/MADEAwelier-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADE Awelier";
+  src: url("assets/fonts/made-awelier/MADEAwelier-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADE Awelier";
+  src: url("assets/fonts/made-awelier/MADEAwelier-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADE Awelier";
+  src: url("assets/fonts/made-awelier/MADEAwelier-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADE Awelier";
+  src: url("assets/fonts/made-awelier/MADEAwelier-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-ExtraLightItalic.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-SemiBoldItalic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-ExtraBoldItalic.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SwissNow";
+  src: url("assets/fonts/swissnow/SwissNow-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 @theme {
   --color-gradient-dark: #08203e;
   --color-gradient-light: #1e1a4d;
+
+  --font-sans: "SwissNow", sans-serif;
+  --font-display: "MADE Awelier", serif;
 }
