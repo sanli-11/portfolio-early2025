@@ -1,9 +1,12 @@
 import BackgroundGradient from "./components/BackgroundGradient";
+import Header from "./components/Header";
 
 function App() {
   return (
     <main>
-      <BackgroundGradient></BackgroundGradient>
+      <BackgroundGradient>
+        <Header />
+      </BackgroundGradient>
     </main>
   );
 }
