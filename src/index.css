@@ -152,4 +152,30 @@
 @theme {
   --font-sans: "JetBrains Mono Nerd", sans-serif;
   --font-display: "PF Handbook Pro", serif;
+
+  --color-palette-1: #363636;
+  --color-palette-2: #242f40;
+  --color-palette-3: #cca43b;
+  --color-palette-4: #e5e5e5;
+  --color-palette-5: #ffffff;
+
+  --color-menubar: #3c3c3c;
+  --color-navbar: #333333;
+  --color-sidebar: #252526;
+  --color-statusbar: #181818;
+  --color-active-tab: #1e1e1e;
+  --color-inactive-tab: #2d2d2d;
+  --color-tabpanel: #1f1f1f;
+  --color-border: #474747;
+  --color-accent: #007aac;
+  --color-text: #cccccc;
+  --color-menubar-active: #424243;
+  --color-menubar-hover: #858585;
+  --color-menubar-controls1-hover: #4d4d4e;
+  --color-menubar-controls2-hover: #e81023;
+  --color-sidebar-active: #03395e;
+  --color-sidebar-active-border: #027fd4;
+  --color-sidebar-hover: #37373c;
+  --color-active-text: #ffffff;
+  --color-inactive-text: #858585;
 }
