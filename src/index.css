@@ -1,1 +1,155 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "PF Handbook Pro";
+  src: url("assets/fonts/pf-handbook-pro/Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PF Handbook Pro";
+  src: url("assets/fonts/pf-handbook-pro/Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/ExtraLightItalic.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/LightItalic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/MediumItalic.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/SemiBoldItalic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono Nerd";
+  src: url("assets/fonts/jetbrains-mono-nerd/ExtraBoldItalic.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "JetBrains Mono Nerd", sans-serif;
+  --font-display: "PF Handbook Pro", serif;
+}
