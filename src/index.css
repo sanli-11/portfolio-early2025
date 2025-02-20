@@ -153,11 +153,12 @@
   --font-sans: "JetBrains Mono Nerd", sans-serif;
   --font-display: "PF Handbook Pro", serif;
 
-  --color-palette-1: #363636;
-  --color-palette-2: #242f40;
-  --color-palette-3: #cca43b;
-  --color-palette-4: #e5e5e5;
-  --color-palette-5: #ffffff;
+  --color-palette-1: #181818;
+  --color-palette-2: #323232;
+  --color-palette-3: #f99e4b;
+  --color-palette-4: #fccfa5;
+  --color-palette-5: #cfcfcf;
+  --color-palette-6: #ffffff;
 
   --color-menubar: #3c3c3c;
   --color-navbar: #333333;
