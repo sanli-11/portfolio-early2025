@@ -2,8 +2,9 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="bg-palette-2 py-6">
+    <div className="relative py-6">
       <Header />
+      <main className="px-4 py-8"></main>
     </div>
   );
 }
