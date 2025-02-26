@@ -180,3 +180,8 @@
   --color-active-text: #ffffff;
   --color-inactive-text: #858585;
 }
+
+::-moz-progress-bar {
+  background-color: var(--color-palette-3);
+  border-radius: 0.25rem;
+}
