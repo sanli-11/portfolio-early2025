@@ -1,3 +1,5 @@
+import javaIcon from "../assets/images/java-icon.svg";
+
 type skillType = {
   id: number;
   title: string;
@@ -88,7 +90,7 @@ const skills: skillType[] = [
   },
   {
     id: 11,
-    icon: `${simpleIconCDN}/openjdk`,
+    icon: javaIcon,
     title: "Java",
     duration: "6 months",
     level: 3,
