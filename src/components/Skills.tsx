@@ -1,25 +1,15 @@
 import skills from "../data/skills";
-import tools from "../data/tools";
 import SkillCard from "./SkillCard";
-import ToolCard from "./ToolCard";
 
 function Skills() {
   return (
-    <section className="mx-16 my-32 flex flex-col gap-y-12">
-      <div className="grid grid-flow-col grid-rows-4">
+    <section className="from-palette-1 via-palette-1 to-palette-2 mx-auto my-32 flex w-fit flex-col items-center justify-center gap-y-8 rounded-2xl bg-gradient-to-t px-12 py-8 shadow-2xl">
+      <h2 className="font-display text-palette-6 text-center text-4xl font-bold">
+        My Tech Stack
+      </h2>
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-3">
         {skills.map((skill) => (
-          <SkillCard
-            key={skill.id}
-            icon={skill.icon}
-            title={skill.title}
-            duration={skill.duration}
-            level={skill.level}
-          />
-        ))}
-      </div>
-      <div className="flex flex-wrap items-center justify-center gap-6">
-        {tools.map((tool) => (
-          <ToolCard key={tool.id} icon={tool.icon} title={tool.title} />
+          <SkillCard key={skill.id} {...skill} />
         ))}
       </div>
     </section>
