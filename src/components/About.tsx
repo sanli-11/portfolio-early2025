@@ -1,17 +1,8 @@
-import profilePicture from "../assets/images/profile.jpg";
-
 function About() {
   return (
     <article className="relative h-dvh w-dvw bg-[url(./assets/images/grid.svg)]">
       <section className="to-palette-6 via-palette-6/70 absolute top-0 left-0 size-full bg-radial-[at_50%_10%] from-transparent from-20%">
         <div className="from-palette-6 via-palette-6/10 absolute flex size-full flex-col items-center justify-center bg-gradient-to-t via-55% to-transparent">
-          <img
-            className="bg-palette-5 border-palette-4 relative -top-8 size-40 rounded-full border-4 object-cover"
-            src={profilePicture}
-            alt="Hassan Ali"
-            width="420"
-            height="555"
-          />
           <p className="cursor-default text-center text-2xl">
             <i className="text-palette-3 font-semibold italic">Hi!</i> My name
             is <b className="font-bold">Hassan Ali</b> and I&apos;m
