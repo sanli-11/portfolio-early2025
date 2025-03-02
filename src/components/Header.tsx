@@ -51,7 +51,7 @@ function Header() {
           height="88"
         />
       </a>
-      <nav className="bg-palette-2 absolute top-0 left-1/2 -translate-x-1/2 rounded-lg px-4 py-2.5">
+      <nav className="bg-palette-2 fixed left-1/2 -translate-x-1/2 rounded-lg px-4 py-2.5">
         <ul className="grid grid-cols-4 gap-x-6">
           {links.map((link) => {
             const isSelected = parseInt(link.id) === selectedButton;
